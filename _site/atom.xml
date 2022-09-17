@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>blog.yui.codes</title>
- <link href="http://162.243.174.80:4000/atom.xml" rel="self"/>
- <link href="http://162.243.174.80:4000/"/>
- <updated>2022-07-19T21:53:36+00:00</updated>
- <id>http://162.243.174.80:4000</id>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <link href="http://localhost:4000/"/>
+ <updated>2022-09-17T09:29:22+00:00</updated>
+ <id>http://localhost:4000</id>
  <author>
    <name>yui</name>
    <email>yui@yui.codes</email>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>ue4 lighting learning notes</title>
-   <link href="http://162.243.174.80:4000/2022/07/16/lighting-ue4-notes/"/>
+   <link href="http://localhost:4000/2022/07/16/lighting-ue4-notes/"/>
    <updated>2022-07-16T00:00:00+00:00</updated>
-   <id>http://162.243.174.80:4000/2022/07/16/lighting-ue4-notes</id>
+   <id>http://localhost:4000/2022/07/16/lighting-ue4-notes</id>
    <content type="html">&lt;p&gt;hi! its been maybe a couple years. i’ve been stagnating. i know. but i’m not anymore and that’s what matters. recently i am learning lighting for games/real-time in ue4 (but maybe also 5?) and i thought i would just post my learning notes here as i go.&lt;/p&gt;
 
 &lt;h2 id=&quot;week-01-exterior-environment-part-1&quot;&gt;week 01: exterior environment part 1&lt;/h2&gt;
@@ -37,7 +37,7 @@
 
 &lt;p&gt;&lt;img src=&quot;/_media/_images/2022.07.17-14.55.14_ue4_week1_castle_warm.png&quot; alt=&quot;&quot; /&gt;
 &lt;img src=&quot;/_media/_images/2022.07.17-14.56.30_ue4_week1_castle_warm.png&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;/_media/_images/2022.07.17-14.57.34_ue4_week1_castle_warm.png&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;/_media/_images/2022-07-17-ue4_week1_castle_warm3.png&quot; alt=&quot;&quot; /&gt;
 for the first scene - i focused on the outdoor lighting using only the skybox and directional light. so i didn’t capture the interior since it is all very dark. and thought about the player’s path into the castle. the geometry on the castle exterior didn’t lend itself to visually lead the player to the castle, so i chose a low sun that would encourage the player to walk forward even with nothing else that was visually interesting.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/_media/_images/2022.07.17-21.46.51_ue4_week1_castle_cold.png&quot; alt=&quot;&quot; /&gt;
@@ -58,9 +58,9 @@ i attached some screenshots of issues that i ran into. mainly my doubts are whic
  
  <entry>
    <title>notes on energy drift in time integrators</title>
-   <link href="http://162.243.174.80:4000/2019/04/10/time-integration/"/>
+   <link href="http://localhost:4000/2019/04/10/time-integration/"/>
    <updated>2019-04-10T00:00:00+00:00</updated>
-   <id>http://162.243.174.80:4000/2019/04/10/time-integration</id>
+   <id>http://localhost:4000/2019/04/10/time-integration</id>
    <content type="html">&lt;h2 id=&quot;final-project-idea&quot;&gt;Final Project Idea&lt;/h2&gt;
 
 &lt;p&gt;Energy drift - usually damping - is substantial for numerical integration schemes that are not &lt;a href=&quot;https://en.wikipedia.org/wiki/Symplectic_integrator&quot;&gt;symplectic&lt;/a&gt;, such as the &lt;a href=&quot;https://en.wikipedia.org/wiki/Runge-Kutta&quot;&gt;Runge-Kutta&lt;/a&gt; family.&lt;/p&gt;
@@ -114,9 +114,9 @@ Tiantian Liu made a much better video explaining the paper. You can find that in
  
  <entry>
    <title>notes on particle-based systems and deformables</title>
-   <link href="http://162.243.174.80:4000/2019/03/20/deformables/"/>
+   <link href="http://localhost:4000/2019/03/20/deformables/"/>
    <updated>2019-03-20T00:00:00+00:00</updated>
-   <id>http://162.243.174.80:4000/2019/03/20/deformables</id>
+   <id>http://localhost:4000/2019/03/20/deformables</id>
    <content type="html">&lt;p&gt;Unified particle-based system: 
 Smoke done by advecting tiny particles along velocities provided by unified particle system.
 Seems like it is a lot of non-physically-based implementations, for example, rigidbody collisions don’t work that way.
@@ -150,9 +150,9 @@ Additionally, they say that the rows of &lt;em&gt;β&lt;/em&gt; are the coeffici
  
  <entry>
    <title>week 4-5</title>
-   <link href="http://162.243.174.80:4000/2019/02/11/class-notes-2/"/>
+   <link href="http://localhost:4000/2019/02/11/class-notes-2/"/>
    <updated>2019-02-11T00:00:00+00:00</updated>
-   <id>http://162.243.174.80:4000/2019/02/11/class-notes-2</id>
+   <id>http://localhost:4000/2019/02/11/class-notes-2</id>
    <content type="html">&lt;h3 id=&quot;motion-editing&quot;&gt;Motion Editing&lt;/h3&gt;
 
 &lt;p&gt;We looked at PRECISION which can figure out what motions go with new geometry. I feel like this tool makes it much easier for large quantities of content in games and animations; however, it didn’t seem like the artists had much control over how animations might look. There were also issues with transitioning between fixed motion captured animations.&lt;/p&gt;
@@ -176,9 +176,9 @@ Picture taken from &lt;a href=&quot;http://www.3dfiggins.com/writeups/paintingWe
  
  <entry>
    <title>week 1-3</title>
-   <link href="http://162.243.174.80:4000/2019/02/04/class-notes/"/>
+   <link href="http://localhost:4000/2019/02/04/class-notes/"/>
    <updated>2019-02-04T00:00:00+00:00</updated>
-   <id>http://162.243.174.80:4000/2019/02/04/class-notes</id>
+   <id>http://localhost:4000/2019/02/04/class-notes</id>
    <content type="html">&lt;h2 id=&quot;week-1-techniques-for-creating-animation&quot;&gt;Week 1: Techniques for creating animation&lt;/h2&gt;
 &lt;p&gt;2D animators make use of keyframes to get poses before doing in-betweens. In 3D, keyframes can be set and automatically tweened. In 2D animation, they often make use of 2s due to not doing all in between frames for 24 fps. In the recent Spiderman animated movie, it was interesting to see that they sometimes used 2s in 3D by stepping the animation curves between keyframes as a stylistic choice.&lt;/p&gt;
 
