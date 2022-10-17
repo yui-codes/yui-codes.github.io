@@ -4,13 +4,22 @@
  <title>blog.yui.codes</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2022-09-17T10:15:10+00:00</updated>
+ <updated>2022-10-17T01:50:07+00:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>yui</name>
    <email>yui@yui.codes</email>
  </author>
 
+ 
+ <entry>
+   <title>lessons in lighting</title>
+   <link href="http://localhost:4000/2022/09/15/lighting-lessons/"/>
+   <updated>2022-09-15T00:00:00+00:00</updated>
+   <id>http://localhost:4000/2022/09/15/lighting-lessons</id>
+   <content type="html">&lt;p&gt;Recently I have been studying lighting in UE5.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>notes on energy drift in time integrators</title>

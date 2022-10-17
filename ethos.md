@@ -3,20 +3,18 @@ layout: page
 title: about/ethos
 ---
 
-<p class="message">
-  hello there. in this day and age, there are more than plenty sites and blogs and papers and media to which we now have access if we want to learn anything. that is, plenty sites and blogs which are much more eloquent, polished and useful than mine, so i thought maybe i should write something to explain why i keep this blog and why i keep it in a public space. 
-</p>
 
-[well...it'll get out of my drafts one day]
+hello！ i thought i would write a little thing to preface the entire site. there are many blogs about tech art and games/3d technology that are much more polished and do a much better job of explaining or giving tutorials, but this is not that kind of blog. i maintain this blog solely as a kind of "learning diary" for myself. i'm trying to keep it unpolished but concise. the purpose is to document the process of learning and keep the gaps in knowledge visible. perhaps one day i will construct a separate site where i will publish polished tutorials with the purpose of instruction, and you will be able to find it in the list below!
 
-[@yuiwei](https://twitter.com/yuiwei)
-
-
+---
 ## sites
 
-* [yui.ooo - art website](http://yui.ooo)
-* [yui.codes - tech+art website](http://yui.codes)
+* [yui.codes](http://yui.codes)  : tech art portfolio (coding, games, graphics)
+* [yuiwei.art](http://yuiwei.art) : art portfolio on artstation
+* [@yuiwei](https://twitter.com/yuiwei) : twitter
 
+
+---
 ## archive of other texts
 
 * [2017 - Intellectual Responsibility: Academic reflection on my university experience](https://yw-usr.github.io/)
