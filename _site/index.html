@@ -101,7 +101,35 @@
       <div class="container content">
         <div class="posts">
   
-  <div class="post">
+  <div class="post-preview">
+    <h1 class="post-title">
+      <a href="http://localhost:4000/2022/09/30/lighting-WIP/">
+        a lighting/env work in progress
+      </a>
+    </h1>
+
+    <span class="post-date">30 Sep 2022</span>
+
+    <p><img src="https://drive.google.com/uc?id=1iyYIFu6s97EwHnvwdr40DRDcie0V5nvR" /></p>
+
+<p>I had this vision for a really long time and had collected all sorts of references over the course of several months. Coming from Singapore, I wanted to do something that was like a greenhouse, but in a solarpunk world. Obviously since I am focusing on lighting here, I decided to rework an existing UE5 map to the best of my abilities rather than overscope and start modeling, texturing and everything.</p>
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/761259490?h=663757ee36&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="UE5 &amp;quot;Blueprints&amp;quot; - solarpunk relight process video"></iframe></div>
+<script src="https://player.vimeo.com/api/player.js"></script>
+<p><br /></p>
+
+<p>I also did another version which was a moody, humid abandoned greenhouse vibe. 
+<img src="https://drive.google.com/uc?id=1ukpEgs6hh3QhQUXxxWk3pvEeLBKEQbaL" /></p>
+
+
+    
+      <p align="right">
+      <a href="/2022/09/30/lighting-WIP/"><b>(read more...)</b></a><hr>
+      </p>
+    
+  </div>
+  
+  <div class="post-preview">
     <h1 class="post-title">
       <a href="http://localhost:4000/2022/09/15/lighting-lessons/">
         lessons in lighting
@@ -110,11 +138,30 @@
 
     <span class="post-date">15 Sep 2022</span>
 
-    <p>Recently I have been studying lighting in UE5.</p>
+    <p>Recently, I took a dive into lighting in UE5 over the course of 10?ish weeks under the guidance of Peter Tran. <strong>WARNING:</strong> Image heavy post…just for this post, I’m adding post truncation to the site.</p>
 
+<h3 id="first-attempt">First Attempt</h3>
+
+<p><img src="https://drive.google.com/uc?id=1qvnSg3XL8iN8JElBUmzpDDXiiI2yC3Qd" />
+<img src="https://drive.google.com/uc?id=1wy7Atc_mv9N_eQs-B8uueiu3NyQL6jFl" /></p>
+
+<p>For my first delve into studying lighting, I took the old Elemental scene and did two lighting scenes. The goal was primarily to do something that looked different with it and to familiarize myself with the tools available to me in UE5. In particular, I experimented a bit with volumetric lighting and getting some nice light shafts. I also played with the skybox a lot for the first outside image and it was very interesting to try to get a nice sense of depth without losing immersion by manually tweaking blur to emulate depth of field. In this case, I think I would have preferred the mountains to be less clear while not losing too much detail on the clouds, even if that isn’t super physically right I suppose. For the second image, in hindsight, the bottom right corner is a little too dark, but I liked the mood of this scene.</p>
+
+<h3 id="second-wind">Second Wind</h3>
+
+<p><img src="https://drive.google.com/uc?id=14QkLt38_AQgKTlXWh3Ii0OhwN8rmT4tz" /></p>
+
+<p>This time, I spent a ton of time brainstorming on what kind of project I could do. I browsed through Artstation and decided to pick my favorite artists and do a top-down lighting like in Dota2 or League of Legends.</p>
+
+
+    
+      <p align="right">
+      <a href="/2022/09/15/lighting-lessons/"><b>(read more...)</b></a><hr>
+      </p>
+    
   </div>
   
-  <div class="post">
+  <div class="post-preview">
     <h1 class="post-title">
       <a href="http://localhost:4000/2019/04/10/time-integration/">
         notes on energy drift in time integrators
@@ -141,8 +188,8 @@
 
 <p>Symplectic integrators usually used in molecular dynamics, such as the <a href="https://en.wikipedia.org/wiki/Verlet_integration">Verlet integrator</a> family, exhibit increases in energy over very long time scales, though the error remains roughly constant. These integrators do not in fact reproduce the <a href="https://en.wikipedia.org/wiki/Hamiltonian_mechanics">Hamiltonian mechanics</a> of the system; instead, they reproduce a closely related “shadow” Hamiltonian whose value they conserve many orders of magnitude more closely.</p>
 
-<p>https://www.youtube.com/watch?v=VyaJVuRaW9E
-<img src="http://www.reactiongifs.com/r/bth.gif" alt="" /></p>
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
+<div class="embed-container"><iframe src="https://www.youtube.com/embed/VyaJVuRaW9E" frameborder="0" allowfullscreen=""></iframe></div>
 
 <h2 id="paper-presentation---fepr">Paper Presentation - FEPR</h2>
 
@@ -152,8 +199,8 @@
 ### Disclaimer
 Tiantian Liu made a much better video explaining the paper. You can find that in the references as well. My presentation is very much tailored to the class and what we know collectively, which is not that much.
 </div>
-
-<video controls="" width="700" src="https://drive.google.com/file/d/1HaLMeuPThhnI89ivUBvjGqwPY6JzKF7Z/preview"></video>
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/761248367?h=1f6d297779&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="2019 Paper Presentation Recording - FEPR"></iframe></div>
+<script src="https://player.vimeo.com/api/player.js"></script>
 
 <p>The link to the slides is http://bit.ly/yuifepr</p>
 
@@ -172,46 +219,7 @@ Tiantian Liu made a much better video explaining the paper. You can find that in
 
 <iframe src="https://drive.google.com/file/d/1sxFrRZN9afnka3dR_s0ui9CiJLRZiG28/preview" width="700" height="800"></iframe>
 
-  </div>
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="http://localhost:4000/2019/03/20/deformables/">
-        notes on particle-based systems and deformables
-      </a>
-    </h1>
-
-    <span class="post-date">20 Mar 2019</span>
-
-    <p>Unified particle-based system: 
-Smoke done by advecting tiny particles along velocities provided by unified particle system.
-Seems like it is a lot of non-physically-based implementations, for example, rigidbody collisions don’t work that way.
-But it is convenient to have everything using the same system (maybe).</p>
-
-<h3 id="deformables">Deformables</h3>
-<h4 id="position-based-dynamics-pbd">Position-based Dynamics (PBD)</h4>
-
-<p>At first, Position-based Dynamics seems to be similar to Verlet integrator, which I have previously used for cloth simulation. However, the author highlights that where Verlet stores velocity implicitly with the previous and current position, PBD uses velocities explicitly.</p>
-
-<p><img src="https://i1.wp.com/yuiwei.com/wp-content/uploads/2019/04/pbd1.png?fit=764%2C677" alt="" class="wp-image-714" /><img src="https://i2.wp.com/yuiwei.com/wp-content/uploads/2019/04/pbd2.png?fit=764%2C642" alt="" class="wp-image-715" /></p>
-
-<p>Later, I realised that for PBD, we try to treat everything as a constraint, including forces (except general forces like gravity, see my annotation on algorithm. When we used position constraints in the cloth simulation, it seemed to automatically correct for any instabilities given by the numerical integration method. But actually when everything is made into a constraint, this seems to shift the problem from the integration step to the constraint solver. As a result, the stability of PBD no longer depends on time-step but on the shape of the constraint functions.</p>
-
-<p>TODO: look more into XPBD. Updates soon.</p>
-
-<h4 id="finite-element-method">Finite Element Method</h4>
-
-<p><img src="https://i2.wp.com/yuiwei.com/wp-content/uploads/2019/04/fracture.png?fit=764%2C556" alt="" class="wp-image-712" /><img src="https://i2.wp.com/yuiwei.com/wp-content/uploads/2019/04/fracture2.png?fit=764%2C662" alt="" class="wp-image-713" /></p>
-
-<p>The paper “Breaking Things” video by O’Brien and Hodgins uses continuous model and finite elements made up of tetrahedrons. I was unclear on the meaning of the vector <strong><em>u</em></strong> in the equations as it does not correspond to vertex locations, instead it refers to the location of the element? Do we just take the center of the tetrahedron as <strong><em>u</em></strong>? 
-Additionally, they say that the rows of <em>β</em> are the coefficients of the shape functions, which I don’t understand.</p>
-
-<h4 id="projective-dynamics">Projective Dynamics</h4>
-
-<p>For PBD the constraint solver which does most of the work does it in a “Gauss-Seidel-like fashion”, which means solving each constraint individually independent of each other. When we project particles, the modifications are visible to the process, so the order of constraints is extremely important. For projective dynamics, constraints are taken from a local/global optimization perspective. The authors say that PBD converges to inelastic behaviour (I’m not sure why yet) and PD converges to the “true implicit Euler solution”.</p>
-
-<p>TODO: Self-study on deformables (lit review)</p>
-
+    
   </div>
   
 </div>

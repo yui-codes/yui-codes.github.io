@@ -20,10 +20,11 @@ Energy drift - usually damping - is substantial for numerical integration scheme
 
 <img src="http://yuiwei.com/wp-content/uploads/2019/03/Screenshot-2019-03-06-at-12.06.13-PM-1024x642.png" alt="" class="wp-image-399"/>
 
+
+
 Symplectic integrators usually used in molecular dynamics, such as the [Verlet integrator](https://en.wikipedia.org/wiki/Verlet_integration) family, exhibit increases in energy over very long time scales, though the error remains roughly constant. These integrators do not in fact reproduce the [Hamiltonian mechanics](https://en.wikipedia.org/wiki/Hamiltonian_mechanics) of the system; instead, they reproduce a closely related "shadow" Hamiltonian whose value they conserve many orders of magnitude more closely. 
 
-https://www.youtube.com/watch?v=VyaJVuRaW9E
-<img src="http://www.reactiongifs.com/r/bth.gif" alt=""/>
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/VyaJVuRaW9E' frameborder='0' allowfullscreen></iframe></div>
 
 ## Paper Presentation - FEPR
 
@@ -33,8 +34,7 @@ This week we have paper presentations and I talk about this paper to the class, 
 ### Disclaimer
 Tiantian Liu made a much better video explaining the paper. You can find that in the references as well. My presentation is very much tailored to the class and what we know collectively, which is not that much.
 </div>
-
-<video controls width=700 src="https://drive.google.com/file/d/1HaLMeuPThhnI89ivUBvjGqwPY6JzKF7Z/preview"></video>
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/761248367?h=1f6d297779&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="2019 Paper Presentation Recording - FEPR"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 The link to the slides is http://bit.ly/yuifepr
 

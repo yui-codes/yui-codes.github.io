@@ -304,7 +304,8 @@ a.sidebar-nav-item:focus {
  */
 
 .page,
-.post {
+.post,
+.post-preview {
   margin-bottom: 4em;
   font-size: 80%;
 }

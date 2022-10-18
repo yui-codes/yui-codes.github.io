@@ -4,7 +4,7 @@
  <title>blog.yui.codes</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2022-10-17T01:50:07+00:00</updated>
+ <updated>2022-10-18T00:28:40+00:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>yui</name>
@@ -13,11 +13,98 @@
 
  
  <entry>
+   <title>a lighting/env work in progress</title>
+   <link href="http://localhost:4000/2022/09/30/lighting-WIP/"/>
+   <updated>2022-09-30T00:00:00+00:00</updated>
+   <id>http://localhost:4000/2022/09/30/lighting-WIP</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;https://drive.google.com/uc?id=1iyYIFu6s97EwHnvwdr40DRDcie0V5nvR&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I had this vision for a really long time and had collected all sorts of references over the course of several months. Coming from Singapore, I wanted to do something that was like a greenhouse, but in a solarpunk world. Obviously since I am focusing on lighting here, I decided to rework an existing UE5 map to the best of my abilities rather than overscope and start modeling, texturing and everything.&lt;/p&gt;
+
+&lt;div style=&quot;padding:56.25% 0 0 0;position:relative;&quot;&gt;&lt;iframe src=&quot;https://player.vimeo.com/video/761259490?h=663757ee36&amp;amp;badge=0&amp;amp;autopause=0&amp;amp;player_id=0&amp;amp;app_id=58479&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen; picture-in-picture&quot; allowfullscreen=&quot;&quot; style=&quot;position:absolute;top:0;left:0;width:100%;height:100%;&quot; title=&quot;UE5 &amp;amp;quot;Blueprints&amp;amp;quot; - solarpunk relight process video&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;script src=&quot;https://player.vimeo.com/api/player.js&quot;&gt;&lt;/script&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;I also did another version which was a moody, humid abandoned greenhouse vibe. 
+&lt;img src=&quot;https://drive.google.com/uc?id=1ukpEgs6hh3QhQUXxxWk3pvEeLBKEQbaL&quot; /&gt;&lt;/p&gt;
+
+&lt;!--break--&gt;
+&lt;p&gt;I tried to do this one with a different, colder fog color, but I actually prefer the first direction I had with this, even if the composition is kind of “neater” or clearer here, with the darkened foreground.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://drive.google.com/uc?id=1pIlKFlS19wKs5ZvwWh0eemC9-OSKjq8R&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;These were some of my notes from the first pass at this version.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://drive.google.com/uc?id=1HX8kIjFEFue8IjhyiYtfF3uND2oIDdOX&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I did a first pass of a third version of this scene, which was a kind of high-class, indoor, night-time building. My first pass was very weird, there was some strange oversaturation in my moonlight and the moonlight was fighting with the warm local lights.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://drive.google.com/uc?id=154AXMfxZhWo3VQP1L6NfMQYnqSlScSD5&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I made some progress on it since and now it looks like this with the preview lighting. Maybe one day I will be able to make a process video like I did for the first version of this scene.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://drive.google.com/uc?id=168hlPUHLdOQFrQEtoaWtm8fFLERyQRSs&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I spent a super long time on this and it still isn’t done - I want to try the new lighting on foliage that was released. Lumen Backside Illumination for Two-Sided Foliage was released in the UE5-Main branch, which means that Lumen now scatters indirect light through foliage. Plus, I have a few more ideas for this environment, like a moody, abandoned vibe, or underwater, a night time, etc. So I will take my time with this one and kind of make a little progress on it every now and then.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>lessons in lighting</title>
    <link href="http://localhost:4000/2022/09/15/lighting-lessons/"/>
    <updated>2022-09-15T00:00:00+00:00</updated>
    <id>http://localhost:4000/2022/09/15/lighting-lessons</id>
-   <content type="html">&lt;p&gt;Recently I have been studying lighting in UE5.&lt;/p&gt;
+   <content type="html">&lt;p&gt;Recently, I took a dive into lighting in UE5 over the course of 10?ish weeks under the guidance of Peter Tran. &lt;strong&gt;WARNING:&lt;/strong&gt; Image heavy post…just for this post, I’m adding post truncation to the site.&lt;/p&gt;
+
+&lt;h3 id=&quot;first-attempt&quot;&gt;First Attempt&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://drive.google.com/uc?id=1qvnSg3XL8iN8JElBUmzpDDXiiI2yC3Qd&quot; /&gt;
+&lt;img src=&quot;https://drive.google.com/uc?id=1wy7Atc_mv9N_eQs-B8uueiu3NyQL6jFl&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;For my first delve into studying lighting, I took the old Elemental scene and did two lighting scenes. The goal was primarily to do something that looked different with it and to familiarize myself with the tools available to me in UE5. In particular, I experimented a bit with volumetric lighting and getting some nice light shafts. I also played with the skybox a lot for the first outside image and it was very interesting to try to get a nice sense of depth without losing immersion by manually tweaking blur to emulate depth of field. In this case, I think I would have preferred the mountains to be less clear while not losing too much detail on the clouds, even if that isn’t super physically right I suppose. For the second image, in hindsight, the bottom right corner is a little too dark, but I liked the mood of this scene.&lt;/p&gt;
+
+&lt;h3 id=&quot;second-wind&quot;&gt;Second Wind&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://drive.google.com/uc?id=14QkLt38_AQgKTlXWh3Ii0OhwN8rmT4tz&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This time, I spent a ton of time brainstorming on what kind of project I could do. I browsed through Artstation and decided to pick my favorite artists and do a top-down lighting like in Dota2 or League of Legends.&lt;/p&gt;
+
+&lt;!--break--&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://drive.google.com/uc?id=1OpfX8GI3KNhhsuQlK17AAdXQNifrzCNB&quot; /&gt;
+&lt;img src=&quot;https://drive.google.com/uc?id=1RkrCR81DeYTPxOSug1BTF8tfYfzq9oX_&quot; /&gt;
+&lt;img src=&quot;https://drive.google.com/uc?id=1iSAPgZxLDj5qPr4joaI4_W3Zs53y72Rw&quot; /&gt;
+&lt;img src=&quot;https://drive.google.com/uc?id=1pOViDyx7zHofYn8kzR8ZFXn6B-3wFexa&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdna.artstation.com/p/assets/images/images/053/645/260/original/yui-tsmith-breakdown-final.gif?1662679389&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;artblock&quot;&gt;Artblock&lt;/h3&gt;
+
+&lt;p&gt;I struggled a lot to find my next footing. I was changing my point of view and thinking hard about composition, camera angles, and drawing out a scene. But I had difficulty breaking down the ideas of composition between composing with shapes in lighting, and being able to arrange the scene in 3D with geometry. It was kind of like a choice overload, thinking about composition with the pure geometry while simultaneously brainstorming ideas on how to light the scene. I wanted to go for something cinematic, but had a lot of trouble finding the specific direction. 
+&lt;img src=&quot;https://drive.google.com/uc?id=1bajzP2kYLrfhGIxsrvsic96Tl4eGtEbx&quot; /&gt;
+&lt;img src=&quot;https://drive.google.com/uc?id=1B9K7CgSFreNxu2UFJhQS533WLmnuRRVD&quot; /&gt;
+&lt;img src=&quot;https://drive.google.com/uc?id=1uIwoZVhYxQ2kCCPVw_t0OBd5OC-4qyF3&quot; /&gt;
+&lt;img src=&quot;https://drive.google.com/uc?id=1A6hieQAFX6M51o_TGs2a-ytUxdDL2mb1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I think it was important to have this struggle. It means that I’m improving and learning to see something differently. But that doesn’t mean it’s not painful! It felt super bad to be in that spot. So I decided to move on and do something that I really wanted to create.&lt;/p&gt;
+
+&lt;p&gt;I had this vision for a really long time and had collected all sorts of references over the course of several months. Coming from Singapore, I wanted to do something that was like a greenhouse, but in a solarpunk world.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://drive.google.com/uc?id=1iyYIFu6s97EwHnvwdr40DRDcie0V5nvR&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I spent a super long time on this and it still isn’t done - I want to try the new lighting on foliage that was released. Lumen Backside Illumination for Two-Sided Foliage was released in the UE5-Main branch, which means that Lumen now scatters indirect light through foliage. Plus, I have a few more ideas for this environment, like a moody, abandoned vibe, or underwater, a night time, etc. So I will take my time with this one and kind of make a little progress on it every now and then.&lt;/p&gt;
+
+&lt;p&gt;I will make a separate post about it as I go!&lt;/p&gt;
+
+&lt;h3 id=&quot;moving-forward&quot;&gt;Moving forward&lt;/h3&gt;
+
+&lt;p&gt;Beyond that, I went on do one more lighting exercise which was to light a scene with the character as a focus. I took some inspiration from Liam Wong’s photographs and threw together some assets from the Unreal asset store. 
+You can see the final work on my artstation &lt;a href=&quot;https://yuiwei.art/projects/vJqJXD&quot;&gt;here&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdna.artstation.com/p/assets/images/images/054/314/530/large/yui-highresscreenshot-2022-09-26-12-13-21.jpg?1664264397&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I think I have learnt so much from this. I actually wanted to learn a lot more about the technical side of things, but I think I gained much more than that by growing a lot as an artist and re-learning how to make art, how to make good images, and improve my eye for lighting.&lt;/p&gt;
+
 </content>
  </entry>
  
@@ -44,8 +131,8 @@
 
 &lt;p&gt;Symplectic integrators usually used in molecular dynamics, such as the &lt;a href=&quot;https://en.wikipedia.org/wiki/Verlet_integration&quot;&gt;Verlet integrator&lt;/a&gt; family, exhibit increases in energy over very long time scales, though the error remains roughly constant. These integrators do not in fact reproduce the &lt;a href=&quot;https://en.wikipedia.org/wiki/Hamiltonian_mechanics&quot;&gt;Hamiltonian mechanics&lt;/a&gt; of the system; instead, they reproduce a closely related “shadow” Hamiltonian whose value they conserve many orders of magnitude more closely.&lt;/p&gt;
 
-&lt;p&gt;https://www.youtube.com/watch?v=VyaJVuRaW9E
-&lt;img src=&quot;http://www.reactiongifs.com/r/bth.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;style&gt;.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }&lt;/style&gt;
+&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/VyaJVuRaW9E&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
 
 &lt;h2 id=&quot;paper-presentation---fepr&quot;&gt;Paper Presentation - FEPR&lt;/h2&gt;
 
@@ -55,8 +142,8 @@
 ### Disclaimer
 Tiantian Liu made a much better video explaining the paper. You can find that in the references as well. My presentation is very much tailored to the class and what we know collectively, which is not that much.
 &lt;/div&gt;
-
-&lt;video controls=&quot;&quot; width=&quot;700&quot; src=&quot;https://drive.google.com/file/d/1HaLMeuPThhnI89ivUBvjGqwPY6JzKF7Z/preview&quot;&gt;&lt;/video&gt;
+&lt;div style=&quot;padding:56.25% 0 0 0;position:relative;&quot;&gt;&lt;iframe src=&quot;https://player.vimeo.com/video/761248367?h=1f6d297779&amp;amp;badge=0&amp;amp;autopause=0&amp;amp;player_id=0&amp;amp;app_id=58479&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen; picture-in-picture&quot; allowfullscreen=&quot;&quot; style=&quot;position:absolute;top:0;left:0;width:100%;height:100%;&quot; title=&quot;2019 Paper Presentation Recording - FEPR&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;script src=&quot;https://player.vimeo.com/api/player.js&quot;&gt;&lt;/script&gt;
 
 &lt;p&gt;The link to the slides is http://bit.ly/yuifepr&lt;/p&gt;
 

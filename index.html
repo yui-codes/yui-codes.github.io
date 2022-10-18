@@ -5,7 +5,7 @@ title: home
 
 <div class="posts">
   {% for post in paginator.posts %}
-  <div class="post">
+  <div class="post-preview">
     <h1 class="post-title">
       <a href="{{ post.url | absolute_url }}">
         {{ post.title }}
@@ -14,7 +14,12 @@ title: home
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
 
-    {{ post.content }}
+    {{ post.content | split:'<!--break-->' | first }}
+    {% if post.content contains '<!--break-->' %}
+      <p align="right">
+      <a href="{{ post.url }}"><b>(read more...)</b></a><hr>
+      </p>
+    {% endif %}
   </div>
   {% endfor %}
 </div>
